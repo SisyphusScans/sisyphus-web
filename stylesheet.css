@@ -111,5 +111,29 @@ body {
 }
 
 #i_strip_2 {
-	padding: 20vh 0px 20vh 0px;
+	background-image: url(resources/i_strip_2.jpg);
+	background-position: 0% 50%;
+	background-size: 100vw;
+	padding: 5vh 0px 5vh 0px;
+}
+
+#i_strip_2_header {
+	position: relative;
+	width: 25vw;
+	left: 37.5vw;
+	right: 37.5vw;
+	text-align: center;
+	font-size: 28px;
+	font-family: RajdhaniLight;
+}
+
+#i_strip_2_txt {
+	font-size: 20px;
+	position: relative;
+	width: 50vw;
+	left: 25vw;
+	right: 25vw;
+	background-color:rgba(226, 219, 176, 0.623);
+	padding: 80px 60px 40px 60px;
+	line-height: 150%;
 }
