@@ -77,7 +77,8 @@ body {
 #i_title h1 {
 	font-size: 72px;
 	margin: 0px 0px 0px 0px;
-	padding: 25vh 0px 5vh 10vw;
+	/*padding: 25vh 0px 5vh 10vw;*/
+	padding: 25px 0px 25px 0px;
 }
 
 .container {
