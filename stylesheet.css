@@ -8,7 +8,6 @@
 @font-face {
 	font-family: RajdhaniLight; 
 	src: url('resources/Rajdhani-Light.ttf');
-	font-weight: light;
 }
 
 @font-face {
@@ -87,6 +86,11 @@ body {
 	position: absolute;
 }
 
+#e404 {
+	background: none;
+	text-align: center;
+}
+
 #i_strip_1 {
 	background-image: url(resources/i_strip_1.jpg);
 	background-position: 0% 10%;
@@ -103,5 +107,9 @@ body {
 	border: 4px solid rgba(143, 121, 111, 1);
 	right: 18.75vw;
 	left: 56.25vw;
-	line-height: 180%
+	line-height: 180%;
+}
+
+#i_strip_2 {
+	padding: 20vh 0px 20vh 0px;
 }
