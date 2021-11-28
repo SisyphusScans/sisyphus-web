@@ -26,9 +26,14 @@ function ss(n) {
         slides[i].style.display = "none";
     }
 
+    slide++;
+
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
+
     slides[slide - 1].style.display = "block";
     dots[slide - 1].className += " active";
-  }
+
+    setTimeout(ss, 4000);
+}
