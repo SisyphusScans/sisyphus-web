@@ -161,8 +161,6 @@ body {
 }
 
 .slide {
-	transition: opacity 1.0s ease;
-	position: relative;
 	width: 30%;
 	margin: 0px 35% 0px 35%;
 }
