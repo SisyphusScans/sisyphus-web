@@ -1,15 +1,15 @@
-var slides = Array.from(document.getElementsByClassName('slide'));
 var slideIndex = 0;
-
-function forwardSlide() {
-    slides.forEach(slide => slide.style.maxHeight = "0px");
-    slides.forEach(slide => slide.style.opacity = "0.0");
-
-    slides[(slideIndex % (slides.length))].style.maxHeight = "100%";
-    slides[(slideIndex % (slides.length))].style.opacity = "1.0";
-
-    slideIndex++;
+function updateSlides() {
+	let shows = Array.from(document.getElementsByClassName('slideshow'));
+	shows.forEach(show => {
+		let slides = Array.from(show.getElementsByClassName('slide'));
+		let realIndex = (slideIndex % (slides.length - 1))
+		slides.forEach((slide, i) => {slide.style.maxHeight = "0px"});
+		slides.forEach((slide, i) => {slide.style.opacity = "0.0"});
+		slides[realIndex].style.maxHeight = "100%";
+		slides[realIndex].style.opacity = "1.0";
+		slideIndex++;
+	})
 }
-
-forwardSlide();
-let slideUpdate = setInterval(forwardSlide, 4000);
+updateSlides()
+let slideUpdate = setInterval(updateSlides, 3000);
