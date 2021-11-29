@@ -1,9 +1,13 @@
 var slideIndex = 0;
+
 try {
-let newStyle = document.createElement('STYLE')
-newStyle.innerText = `.slideshow {} .slide {/*opacity: 0*/ position: relative; transition: opacity 2.0s ease;}`
-document.firstElementChild.appendChild(newStyle, null)
-} catch (e) {console.warn('Failed to add slides style! Slideshows may break!')}
+	let newStyle = document.createElement('STYLE');
+	newStyle.innerText = `.slideshow {} .slide {/*opacity: 0*/ position: relative; transition: opacity 2.0s ease;}`;
+	document.firstElementChild.appendChild(newStyle, null);
+} catch (e) {
+	console.warn('Failed to add slides style! Slideshows may break!');
+}
+
 function updateSlides() {
 	let shows = Array.from(document.getElementsByClassName('slideshow'));
 
@@ -21,4 +25,4 @@ function updateSlides() {
 	})
 }
 updateSlides()
-let slideUpdate = setInterval(updateSlides, 3000);
+let slideUpdate = setInterval(updateSlides, 4000);
