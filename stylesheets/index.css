@@ -2,28 +2,28 @@
 
 @font-face {
 	font-family: Rajdhani; 
-	src: url("../resources/Rajdhani-Regular.ttf");
+	src: url("resources/Rajdhani-Regular.ttf");
 }
 
 @font-face {
 	font-family: RajdhaniLight; 
-	src: url("../resources/Rajdhani-Light.ttf");
+	src: url("resources/Rajdhani-Light.ttf");
 }
 
 @font-face {
 	font-family: RajdhaniMedium; 
-	src: url("../resources/Rajdhani-Medium.ttf");
+	src: url("resources/Rajdhani-Medium.ttf");
 }
 
 @font-face {
 	font-family: RajdhaniSemibold; 
-	src: url("../resources/Rajdhani-Semibold.ttf");
+	src: url("resources/Rajdhani-Semibold.ttf");
 	
 }
 
 @font-face {
 	font-family: RajdhaniBold; 
-	src: url("../resources/Rajdhani-Bold.ttf");
+	src: url("resources/Rajdhani-Bold.ttf");
 }
 
 body {
