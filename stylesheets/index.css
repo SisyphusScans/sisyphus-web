@@ -26,6 +26,156 @@
 	src: url("../resources/Rajdhani-Bold.ttf");
 }
 
+@media (orientation: portrait) {
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		width: 25vw;
+		padding: 3vh 0px;
+		text-decoration: none;
+		font-size: calc(2 * (1vh + 1vw));
+		font-family: Rajdhani;
+		transition: background-color 0.25s ease;
+	}
+
+	#i_strip_1_txt {
+		font-size: 20px;
+		position: relative;
+		width: 60vw;
+		padding: 30px 10vw 30px 10vw;
+		background-color: rgba(143, 121, 111, 0.3);
+		border: 4px solid rgba(143, 121, 111, 1);
+		right: 10vw;
+		left: 10vw;
+		line-height: 180%;
+	}
+
+	#i_title h1 {
+		color: #FFF;
+		background-color: rgba(0, 0, 0, 0.6);
+		width: 45vw;
+		font-size: 11vw;
+		margin: 0px 27.5vw 0px 27.5vw;
+		padding: 25px 0px 25px 0px;
+		left: 42.5%;
+		right: 42.5%;
+		text-align: center;
+	}
+
+	#i_strip_2_header {
+		position: relative;
+		width: 50vw;
+		left: 25vw;
+		right: 25vw;
+		text-align: center;
+		font-size: calc(1.5 * (1vh + 1vw));
+		font-family: RajdhaniLight;
+	}
+
+	#i_strip_2_txt {
+		font-size: 20px;
+		position: relative;
+		width: 50vw;
+		left: 15vw;
+		right: 15vw;
+		background-color:rgba(226, 219, 176, 1);
+		padding: 40px 10vw 40px 10vw;
+		line-height: 150%;
+	}
+
+	#i_strip_3_header {
+		font-size: 3vw;
+		font-family: RajdhaniLight;
+		position: relative;
+		width: 60vw;
+		left: 20vw;
+		right: 20vw;
+		text-align: center;
+		color: #FFF;
+	}
+
+	.slide {
+		width: 70vw;
+		margin: 0px 15vw 0px 15vw;
+	}
+}
+
+@media (orientation: landscape) {
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 2.8vh 3.2vw;
+		text-decoration: none;
+		font-size: calc(1 * (1vh + 1vw));
+		font-family: Rajdhani;
+		transition: background-color 0.25s ease;
+	}
+
+	#i_strip_1_txt {
+		font-size: 20px;
+		position: relative;
+		width: 25%;
+		padding: 90px 60px 30px 60px;
+		background-color: rgba(143, 121, 111, 0.3);
+		border: 4px solid rgba(143, 121, 111, 1);
+		right: 18.75%;
+		left: 56.25%;
+		line-height: 180%;
+	}
+
+	#i_title h1 {
+		color: #FFF;
+		background-color: rgba(0, 0, 0, 0.6);
+		width: 30vw;
+		font-size: 7vw;
+		margin: 0px 35vw 0px 35vw;
+		padding: 25px 0px 25px 0px;
+		left: 42.5%;
+		right: 42.5%;
+		text-align: center;
+	}
+
+	#i_strip_2_header {
+		position: relative;
+		width: 40vw;
+		left: 30vw;
+		right: 30vw;
+		text-align: center;
+		font-size: calc(1.5 * (1vh + 1vw));
+		font-family: RajdhaniLight;
+	}
+
+	#i_strip_2_txt {
+		font-size: 20px;
+		position: relative;
+		width: 60vw;
+		left: 10vw;
+		right: 10vw;
+		background-color:rgba(226, 219, 176, 1);
+		margin: 0px 0px;
+		padding: 40px 10vw 40px 10vw;
+		line-height: 150%;
+	}
+
+	#i_strip_3_header {
+		font-size: 1.75vw;
+		font-family: RajdhaniLight;
+		position: relative;
+		width: 35%;
+		left: 32.5%;
+		right: 32.5%;
+		text-align: center;
+		color: #FFF;
+	}
+
+	.slide {
+		width: 70vw;
+		margin: 0px 15vw 0px 15vw;
+	}
+}
+
 body {
 	margin: 0;
 	max-width: 100%;
@@ -40,17 +190,7 @@ body {
 	background-color: #333;
 	overflow: hidden;
 	top: 0;
-	width: 100%;
-}
-
-.topnav a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 28px 32px;
-	text-decoration: none;
-	font-size: 30px;
-	font-family: Rajdhani;
+	width: 100vw;
 }
 
 .topnav a:hover {
@@ -70,23 +210,9 @@ body {
 
 #i_title {
 	background-image: url("../resources/i_title.jpg");
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: RajdhaniLight;
-}
-
-#i_title h1 {
-	font-size: 72px;
-	margin: 0px 0px 0px 0px;
-	/*padding: 25vh 0px 5vh 10%;*/
-	padding: 25px 0px 25px 0px;
-	left: 42.5%;
-	right: 42.5%;
-}
-
-.container {
-	width: 50%;
-	margin: 0px 25% 0px 25%;
-	position: absolute;
 }
 
 #e404 {
@@ -96,71 +222,25 @@ body {
 
 #i_strip_1 {
 	background-image: url("../resources/i_strip_1.jpg");
+	background-repeat: no-repeat;
 	background-position: 0% 10%;
-	background-size: 100%;
-	padding: 20% 0px 20% 0px;
-}
-
-#i_strip_1_txt {
-	font-size: 20px;
-	position: relative;
-	width: 25%;
-	padding: 90px 60px 30px 60px;
-	background-color: rgba(143, 121, 111, 0.3);
-	border: 4px solid rgba(143, 121, 111, 1);
-	right: 18.75%;
-	left: 56.25%;
-	line-height: 180%;
+	background-size: cover;
+	padding: 10% 0px 10% 0px;
 }
 
 #i_strip_2 {
 	background-image: url("../resources/i_strip_2.jpg");
+	background-repeat: no-repeat;
 	background-position: 0% 50%;
-	background-size: 100%;
+	background-size: cover;
 	padding: 5% 0px 5% 0px;
-}
-
-#i_strip_2_header {
-	position: relative;
-	width: 25%;
-	left: 37.5%;
-	right: 37.5%;
-	text-align: center;
-	font-size: 28px;
-	font-family: RajdhaniLight;
-}
-
-#i_strip_2_txt {
-	font-size: 20px;
-	position: relative;
-	width: 50%;
-	left: 25%;
-	right: 25%;
-	background-color:rgba(226, 219, 176, 1);
-	padding: 80px 60px 40px 60px;
-	line-height: 150%;
 }
 
 #i_strip_3 {
 	background-image: url("../resources/i_strip_3.jpg");
+	background-repeat: no-repeat;
 	background-position: 0% 0%;
-	background-size: 100%;
+	background-size: cover;
 	padding: 5% 0px 5% 0px;
 	overflow-y: hidden;
-}
-
-#i_strip_3_header {
-	font-size: 28px;
-	font-family: RajdhaniLight;
-	position: relative;
-	width: 35%;
-	left: 32.5%;
-	right: 32.5%;
-	text-align: center;
-	color: #FFF;
-}
-
-.slide {
-	width: 30%;
-	margin: 0px 35% 0px 35%;
 }

@@ -24,5 +24,6 @@ function updateSlides() {
 		slideIndex++;
 	})
 }
-updateSlides()
+
+updateSlides();
 let slideUpdate = setInterval(updateSlides, 4000);
