@@ -28,7 +28,7 @@
 
 @media (orientation: portrait) {
 	.topnav a {
-		float: left;
+		float: right;
 		color: #f2f2f2;
 		text-align: center;
 		width: 25vw;
@@ -37,6 +37,10 @@
 		font-size: calc(2 * (1vh + 1vw));
 		font-family: Rajdhani;
 		transition: background-color 0.25s ease;
+	}
+
+	.topnav img {
+		display: none;
 	}
 
 	#i_strip_1_txt {
@@ -103,14 +107,24 @@
 
 @media (orientation: landscape) {
 	.topnav a {
-		float: left;
+		float: right;
 		color: #f2f2f2;
 		text-align: center;
-		padding: 2.8vh 3.2vw;
+		padding: 2.8vh 0px;
+		width: 10vw;
 		text-decoration: none;
 		font-size: calc(1 * (1vh + 1vw));
 		font-family: Rajdhani;
 		transition: background-color 0.25s ease;
+	}
+
+	.topnav img {
+		float: left;
+		max-height: 12vh;
+		position: absolute;
+		top: 2%;
+		left: 12%;
+		box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.6);
 	}
 
 	#i_strip_1_txt {
@@ -169,6 +183,10 @@
 		text-align: center;
 		color: #FFF;
 	}
+
+	#nav_start {
+		margin: 0px 30% 0px 0px;
+	}	
 
 	.slide {
 		width: 70vw;
