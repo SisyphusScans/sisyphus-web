@@ -32,6 +32,13 @@
 	float: right;
 }
 
+.topnav #title_box img {
+	height: calc(5.3vh + (0.8 * (1vh + 1vw)));
+	margin: 2.5vh 2vw 2.5vh 0px;
+	overflow: hidden;
+	float: right;
+}
+
 #nav_start {
 	margin: 4vh 25% 4vh 0px;
 }
