@@ -1,28 +1,34 @@
 @charset "utf-8";
 
-.topnav a {
-	float: right;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 2.8vh 0px;
-	width: 10vw;
-	text-decoration: none;
-	font-size: calc(1 * (1vh + 1vw));
-	font-family: Rajdhani;
-	transition: background-color 0.25s ease;
+@font-face {
+	font-family: Fahkwang; 
+	src: url("../resources/Fahkwang-ExtraLight.ttf");
 }
 
-.topnav img {
-	float: left;
-	max-height: 12vh;
-	position: absolute;
-	top: 2%;
-	left: 12%;
-	box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.6);
+.topnav a {
+	float: right;
+	color: #000;
+	text-align: center;
+	padding: 1.6vh 0px 1.6vh 0px;
+	margin: 2.8vh 0px 2.8vh 0px;
+	width: 8vw;
+	text-decoration: none;
+	font-size: calc(0.5 * (1vh + 1vw));
+	font-family: Helvetica;
+	transition: background-color 0.25s ease;
+	border-right: solid 1px #CCC;
+}
+
+.topnav h1 {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	font-size: calc(2.2 * (1vh + 1vw));
+	font-family: Fahkwang;
+	margin: 1vh 5vw 1vh 0px;
 }
 
 #nav_start {
-	margin: 0px 30% 0px 0px;
+	margin: 3.2vh 25% 3.2vh 0px;
 }
 
 body {
@@ -36,10 +42,11 @@ body {
 }
 
 .topnav {
-	background-color: #333;
+	background-color: #FFF;
 	overflow: hidden;
 	top: 0;
 	width: 100vw;
+	box-shadow: 1px 1px 10px #777;
 }
 
 .topnav a:hover {
@@ -53,6 +60,6 @@ body {
 }
 
 .topnav a.active {
-	background-color: #39F;
+	background-color: rgb(116, 116, 116);
 	color: white;
 }
