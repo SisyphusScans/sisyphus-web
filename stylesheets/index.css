@@ -131,9 +131,9 @@ body {
 
 #i_strip_1_img_2 img {
 	position: absolute;
-	width: 80vw;
+	width: 85.8vw;
 	top: calc(23.2 * (1vh + 1vw));
-	left: 2vw;
+	left: 1vw;
 }
 
 #i_strip_2 {
