@@ -1,3 +1,3 @@
 # sisyphus-web
 
-This repository is used to store the project files for the sisyphus website.
+my epik mor betrer versin of wbste cz epk
