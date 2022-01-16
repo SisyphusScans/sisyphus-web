@@ -9,11 +9,11 @@
 	float: right;
 	color: #000;
 	text-align: center;
-	padding: 1.6vh 0px 1.6vh 0px;
-	margin: 2.8vh 0px 2.8vh 0px;
+	padding: 1.7vh 0px 1.7vh 0px;
+	margin: 2.7vh 0px 2.7vh 0px;
 	width: 8vw;
 	text-decoration: none;
-	font-size: calc(0.5 * (1vh + 1vw));
+	font-size: calc(0.55 * (1vh + 1vw));
 	font-family: Helvetica;
 	transition: background-color 0.25s ease;
 	border-right: solid 1px #CCC;
@@ -28,7 +28,7 @@
 }
 
 #nav_start {
-	margin: 3.2vh 25% 3.2vh 0px;
+	margin: 2.7vh 25% 2.7vh 0px;
 }
 
 body {
