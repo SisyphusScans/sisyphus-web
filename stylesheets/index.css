@@ -158,3 +158,36 @@ body {
 	font-size: calc(2.5 * (1vh + 1vw));
 	text-align: center;
 }
+
+#i_strip_3 {
+	background-color: rgb(208, 213, 221);
+	float: left;
+	position: relative;
+	width: 100vw;
+	top: 35vw;
+	text-align: center;
+}
+
+#i_strip_3 h1 {
+	font-size: calc(2 * (1vh + 1vw));
+}
+
+.slide {
+	width: 60vw;
+	margin: 0px 20vw 0px 20vw;
+}
+
+#footer {
+	background-color: #000;
+	float: left;
+	position: relative;
+	width: 100vw;
+	top: 35vw;
+	text-align: center;
+	color: #fff;
+}
+
+#footer p {
+	padding: 1vh 0px 1vh 0px;
+	font-size: 20px;
+}
