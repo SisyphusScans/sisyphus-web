@@ -198,3 +198,33 @@ body {
 	padding: 1vh 0px 1vh 0px;
 	font-size: 20px;
 }
+
+#e404 h1 {
+	font-size: calc(3 * (1vh + 1vw));
+	text-align: center;
+}
+
+#e404 p {
+	font-size: calc(1.5 * (1vh + 1vw));
+	text-align: center;
+}
+
+#e404_homepage_button {
+	background-color: #777;
+	color: #fff;
+	font-size: calc(1 * (1vh + 1vw));
+	width: 21vw;
+	left: 36vw;
+	padding: 2vh;
+	position: absolute;
+	display: inline;
+	text-align: center;
+	border-radius: 3vh;
+	text-decoration: none;
+	transition: background-color 0.25s ease;
+}
+
+#e404_homepage_button:hover {
+	background-color: rgb(221, 221, 221);
+	color: #000;
+}
