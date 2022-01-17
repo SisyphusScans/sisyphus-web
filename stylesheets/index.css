@@ -48,6 +48,7 @@ body {
 	max-width: 100%;
 	overflow-x: hidden;
 	font-family: BaiJamjuree;
+	background-color: #EEEEEE;
 }
 
 .content {
@@ -227,4 +228,117 @@ body {
 #e404_homepage_button:hover {
 	background-color: rgb(221, 221, 221);
 	color: #000;
+}
+
+.c_main {
+	position: relative;
+	width: 35vw;
+	left: 32.5vw;
+}
+
+#contact_form input[type=text] {
+	padding: 0.4vw;
+	width: 100%;
+	border: none;
+	border-bottom: solid 2px rgb(94, 94, 94);
+	font-family: BaiJamjuree;
+	font-size: 20px;
+	transition: border-bottom 0.15s ease;
+	background: none;
+}
+
+#contact_form textarea {
+	resize: none;
+	width: 34.9vw;
+	height: 10vh;
+	border: none;
+	border-bottom: solid 2px rgb(94, 94, 94);
+	font-family: BaiJamjuree;
+	font-size: 20px;
+	transition: border-bottom 0.15s ease;
+	background: none;
+}
+
+#contact_form label {
+	font-size: calc(0.6 * (1vh + 1vw));
+	margin-top: 7vh;
+	display: block;
+}
+
+.left {
+	display: inline-block;
+	width: 44%;
+	margin-right: calc(5vw * 0.35);
+}
+
+.right {
+	display: inline-block;
+	width: 44%;
+	margin-left: calc(4.3vw * 0.35);
+}
+
+.full {
+	display: inline-block;
+	width: 34.3vw;
+}
+
+.msgbox label {
+	margin-top: inherit;
+	margin-bottom: 1.5vh;
+}
+
+#form_submit {
+	display: inline-block;
+	width: 6.8vw;
+	font-size: calc(0.6 * (1vh + 1vw));
+	margin-left: calc(34vw * 0.41);
+	margin-top: 3vh;
+}
+
+#form_submit button[type=submit] {
+	background-color: rgb(94, 94, 94);
+	color: #fff;
+	padding: calc(0.5 * (1vh + 1vw));
+	padding-left: calc(1 * (1vh + 1vw));
+	padding-right: calc(1 * (1vh + 1vw));
+	border-radius: calc(0.7 * (1vh + 1vw));
+	text-decoration: none;
+	transition: background-color 0.25s ease;
+	font-family: inherit;
+	border: none;
+}
+
+#form_submit button[type=submit]:hover {
+	background-color: #b99e16;
+	color: #000;
+}
+
+#contact_form input:focus {
+	outline: none;
+	border-bottom: solid 2px #b99e16;
+}
+
+#contact_form input:focus:hover {
+	outline: none;
+	border-bottom: solid 2px #b99e16;;
+}
+
+#contact_form input:hover {
+	outline: none;
+	border-bottom: solid 2px #b99e16;
+}
+
+#contact_form textarea:focus {
+	outline: none;
+	border-bottom: solid 2px #b99e16;;
+}
+
+#contact_form textarea:focus:hover {
+	outline: none;
+	border-bottom: solid 2px #b99e16;;
+}
+
+#contact_form textarea:hover {
+	outline: none;
+	border-bottom: solid 2px #b99e16;
 }
