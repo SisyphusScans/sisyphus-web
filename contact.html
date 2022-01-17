@@ -8,7 +8,7 @@
 
         <title>Home</title>
 
-        <script defer src="scripts/slideshow.js"></script>
+        <script defer src="scripts/formsend.js"></script>
         <link rel="stylesheet" href="stylesheets/index.css"/>
         <link rel="shortcut icon" type="image/png" href="resources/favicon-32x32.png"/>
     </head>
@@ -28,24 +28,25 @@
         
         <div class="content">
             <div class="c_main">
+                <h1><strong>Interested in having your properties scanned by us? Fill out the form below and we will respond to you shortly!</strong></h1>
                 <form id="contact_form" method="post" action="https://script.google.com/macros/s/AKfycbyUgQ5yfx0uFir9b8kvtH9IMFP4yDRqaSJqOJ8B2djiwwDZQyFI-fHyqCWPPFURDIEdyQ/exec" >
                     <div class="left">
                         <label>First Name</label>
-                        <input name="First Name" type="text" />
+                        <input name="First Name" type="text" required/>
                     </div>
                     <div class="right">
                         <label>Last Name</label>
-                        <input name="Last Name" type="text" />
+                        <input name="Last Name" type="text" required/>
                     </div>
                     <br/>
                     <div class="full">
                         <label>Email</label>
-                        <input name="Email" type="text" />
+                        <input name="Email" type="text" required/>
                     </div>
                     <br/>
                     <div class="msgbox">
                         <label>Message</label>
-                        <textarea name="Message"></textarea>
+                        <textarea name="Message" required></textarea>
                     </div>
                     <div id="form_submit">
                         <button type="submit">Submit</button>

@@ -68,7 +68,7 @@ body {
 	overflow: hidden;
 	top: 0;
 	width: 100vw;
-	box-shadow: 1px 1px 10px #777;
+	box-shadow: 1px 1px 10px rgb(94, 94, 94);
 }
 
 .topnav a:hover {
@@ -114,14 +114,14 @@ body {
 #i_strip_1_text a {
 	color: #FFF;
 	padding: 2vh;
-	background-color: #777;
+	background-color: rgb(94, 94, 94);
 	border-radius: 2.5vh;
 	text-decoration: none;
 	transition: background-color 0.25s ease;
 }
 
 #i_strip_1_text a:hover {
-	background-color: rgb(221, 221, 221);
+	background-color: #b99e16;
 	color: #000;
 }
 
@@ -211,7 +211,7 @@ body {
 }
 
 #e404_homepage_button {
-	background-color: #777;
+	background-color: rgb(94, 94, 94);
 	color: #fff;
 	font-size: calc(1 * (1vh + 1vw));
 	width: 21vw;
@@ -226,7 +226,37 @@ body {
 }
 
 #e404_homepage_button:hover {
-	background-color: rgb(221, 221, 221);
+	background-color: #b99e16;
+	color: #000;
+}
+
+#success h1 {
+	font-size: calc(2 * (1vh + 1vw));
+	text-align: center;
+}
+
+#success p {
+	font-size: calc(0.75 * (1vh + 1vw));
+	text-align: center;
+}
+
+#success_homepage_button {
+	background-color: rgb(94, 94, 94);
+	color: #fff;
+	font-size: calc(0.6 * (1vh + 1vw));
+	width: 11vw;
+	left: 43vw;
+	padding: 2vh;
+	position: absolute;
+	display: inline;
+	text-align: center;
+	border-radius: 3vh;
+	text-decoration: none;
+	transition: background-color 0.25s ease;
+}
+
+#success_homepage_button:hover {
+	background-color: #b99e16;
 	color: #000;
 }
 
@@ -320,7 +350,7 @@ body {
 
 #contact_form input:focus:hover {
 	outline: none;
-	border-bottom: solid 2px #b99e16;;
+	border-bottom: solid 2px #b99e16;
 }
 
 #contact_form input:hover {
@@ -330,12 +360,12 @@ body {
 
 #contact_form textarea:focus {
 	outline: none;
-	border-bottom: solid 2px #b99e16;;
+	border-bottom: solid 2px #b99e16;
 }
 
 #contact_form textarea:focus:hover {
 	outline: none;
-	border-bottom: solid 2px #b99e16;;
+	border-bottom: solid 2px #b99e16;
 }
 
 #contact_form textarea:hover {
