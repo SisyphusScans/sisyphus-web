@@ -31,7 +31,6 @@ nav a {
 nav ul {
     margin: 0;
     padding: 0;
-
 }
 
 nav li {
@@ -41,9 +40,18 @@ nav li {
     font-size: 125%;
 }
 
+nav a:hover{
+    background: rgb(238, 238, 238);
+}
+
+nav a:active {
+    background: rgb(238, 238, 238);
+}
+
 .SSSvid {
     display: block;
-    padding-top: 20px;
+    padding-left: 7px;
+    padding-top: 45px;
 }
 
 .logo {
@@ -63,7 +71,7 @@ header::after {
 
 .house {
     float: right;
-    width: 900px;
+    width: 850px;
 }
 
 .book {
@@ -88,10 +96,35 @@ header::after {
 .stunning {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
+    padding-top: 35px;
 }
 
 .booked {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 17px;
     padding-bottom: 20px;
+}
+
+.step1, .step2 {
+    width: 20%;
+}
+
+.step3 {
+    width: 24.5%;
+}
+
+.step1 {
+    padding-left: 20%;
+}
+
+.easy {
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(94, 94, 94);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
