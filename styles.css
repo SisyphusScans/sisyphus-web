@@ -119,6 +119,7 @@ header::after {
 
 .SSS {
     padding-left: 215px;
+    padding-bottom: 40px;
 }
 
 .stunning {
@@ -143,7 +144,6 @@ header::after {
     color:rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 10px;
-    background: rgb(94, 94, 94);
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
@@ -187,6 +187,9 @@ header::after {
 
 * {box-sizing: border-box;}
 
+/*.slideholder {
+    background-color: rgba(185, 158, 22, 0.7);
+}*/
 .slideshow {
     max-width: 1000px;
     position: relative;
@@ -250,18 +253,18 @@ header::after {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.7s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.7s;
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: .1}
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .1}
     to {opacity: 1}
 }
 
