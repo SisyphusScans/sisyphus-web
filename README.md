@@ -1,3 +1,3 @@
 # sisyphus-web
 
-propane's website design
+Main website design
