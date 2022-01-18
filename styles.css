@@ -62,17 +62,17 @@ nav li {
 }
 
 nav a:hover{
-    background-color: #ddd;
+    background-color: rgba(185, 158, 22, 0.7);
 	color: black;
 }
 
 nav a.active:hover {
-    background-color: #ddd;
+    background-color: rgba(185, 158, 22, 0.7);
 	color: black;
 }
 
-nav a:active {
-    background: rgb(238, 238, 238);
+nav a.active {
+    background: rgba(185,158,22,255);
 }
 
 .SSSvid {
@@ -98,18 +98,19 @@ header::after {
 
 .house {
     float: right;
-    width: 850px;
+    width: 900px;
 }
 
 .book {
-    color:rgb(0, 0, 0);
+    color:rgb(238, 238, 238);
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 15px;
     background: rgb(94, 94, 94);
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: background-color 0.35s ease;
 }
 
 .book:hover {
@@ -132,16 +133,9 @@ header::after {
     padding-bottom: 30px;
 }
 
-.step1, .step2 {
-    width: 20%;
-}
-
-.step3 {
-    width: 24.5%;
-}
-
-.step1 {
-    padding-left: 20%;
+.steps {
+    padding-left: 22%;
+    width: 90%;
 }
 
 .easy {
@@ -189,4 +183,94 @@ header::after {
     font-family: "Bai Jam";
     font-size: 20px;
     color: rgb(238, 238, 238);
+}
+
+* {box-sizing: border-box;}
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+.slides {
+    display: none;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgba(185,158,22,255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.previous:hover, .next:hover {
+    background-color: rgba(146, 146, 146, 0.3);
+}
+
+.number {
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(146, 146, 146);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: rgba(185,158,22,255);
+}
+
+.dot:hover {
+    background-color: rgba(185, 158, 22, 0.7);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.footer {
+    padding-top:12px;
+    height: 100px;
+    text-align: center;
+    font-family: "Bai Jam";
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(146, 146, 146);
 }
