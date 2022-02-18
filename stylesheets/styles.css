@@ -2573,29 +2573,28 @@ Small Portrait Layout
 	#p_main_box_1 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 16%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_1 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_1 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_1 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
@@ -2604,36 +2603,35 @@ Small Portrait Layout
 	}
 
 	#p_main_box_1 ul li {
-		font-size: 12px;
+		font-size: 20px;
 		margin-top: 12px;
 	}
 
 	#p_main_box_2 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 2%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_2 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_2 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_2 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
@@ -2642,36 +2640,35 @@ Small Portrait Layout
 	}
 
 	#p_main_box_2 ul li {
-		font-size: 12px;
+		font-size: 20px;
 		margin-top: 12px;
 	}
 
 	#p_main_box_3 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 2%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_3 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_3 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_3 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
@@ -2680,7 +2677,7 @@ Small Portrait Layout
 	}
 
 	#p_main_box_3 ul li {
-		font-size: 12px;
+		font-size: 20px;
 		margin-top: 12px;
 	}
 
