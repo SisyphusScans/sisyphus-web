@@ -11,12 +11,12 @@ propane's website design
   - [ ] Desktop Medium (1600x900 to 2560x1440)
     - [x] Homepage
     - [ ] About Us
-    - [x] Packages
+    - [ ] Packages
     - [ ] Contact Us
-  - [x] Desktop Small (1280x720 to 1600x900)
+  - [ ] Desktop Small (1280x720 to 1600x900)
     - [x] Homepage
     - [ ] About Us
-    - [x] Packages
+    - [ ] Packages
     - [ ] Contact Us
   - [ ] Desktop X-Small (Smaller than 1280x720)
     - [x] Homepage
@@ -36,7 +36,7 @@ propane's website design
   - [ ] Mobile Small (Width 600px-800px)
     - [x] Homepage
     - [ ] About Us
-    - [x] Packages
+    - [ ] Packages
     - [ ] Contact Us
   - [ ] Mobile X-Small (Width smaller than 600px)
     - [ ] Homepage
