@@ -3,7 +3,7 @@
 propane's website design
 
 - [ ] Responsive support
-	- [ ] Desktop Large (Larger than 1920x1080)
+  - [ ] Desktop Large (Larger than 1920x1080)
     - [ ] Homepage
     - [ ] About Us
     - [ ] Packages
@@ -50,7 +50,7 @@ propane's website design
   - [x] Packages
   - [x] Contact Us
 
-  - [ ] Design Changes
-  	- [ ] Remove image in "Our Products"
-  	- [ ] Add image to "How does it work?"
-  	- [ ] Responsive navigation dropdown for mobile and smaller screens
+- [ ] Design Changes
+  - [ ] Remove image in "Our Products"
+  - [ ] Add image to "How does it work?"
+  - [ ] Responsive navigation dropdown for mobile and smaller screens
