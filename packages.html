@@ -8,17 +8,33 @@
 
         <title>Home</title>
 
-        <script defer src="scripts/slideshow.js"></script>
-        <link rel="stylesheet" href="stylesheets/styles.css"/>
+        <script defer src="scripts/dropdown.js"></script>
+        <link rel="stylesheet" href="stylesheets/styles-desk-med.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-desk-small.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-desk-xsmall.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-small.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-xsmall.css"/>
         <link rel="shortcut icon" type="image/png" href="resources/favicon-32x32.png"/>
     </head>
 
     <body>
+        <div id="nav_menu" class="dropdown-content">
+            <a onclick="menuOpen()" id="menu_button">🗙 Close Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="packages.html">Packages</a>
+            <a href="about_us.html">About Us</a>
+            <a href="index.html">Home</a>
+        </div>
+        
         <div class="topnav">
             <a id="nav_start" href="contact.html">Contact Us</a>
             <a class="active" href="packages.html">Packages</a>
             <a href="about_us.html">About Us</a>
             <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <button onclick="menuOpen()" class="dropbtn">≡</button>
+            </div>
 
             <div id="title_box">
                 <h1>SISYPHUS</h1>
@@ -52,7 +68,7 @@
                         <li>Includes a virtual tour</li>
                         <li>Includes unlimited 4K extrapolated photos</li>
                         <li>Includes a full 2D floorplan of the home</li>
-                        <li>Custom 30 second - 60 second videograpphy of the interior and exterior of the property</li>
+                        <li>Custom 30 second - 60 second videography of the interior and exterior of the property</li>
                     </ul>
                 </div>
                 <div id="p_main_box_3">
