@@ -16,7 +16,7 @@ Desktop Small Layout
 ###################################
 */
 
-@media screen and (min-width: 1280px) and (max-width: 1599px) {
+@media screen and (min-width: 1280px) and (max-width: 1599px) and (orientation: landscape) {
 	.topnav a {
 		float: right;
 		color: #000;
@@ -120,7 +120,7 @@ Desktop Small Layout
 
 	/* Footer */
 
-	.footer {
+	footer {
 		background-color: #000;
 		float: left;
 		position: relative;
@@ -129,7 +129,7 @@ Desktop Small Layout
 		color: #fff;
 	}
 
-	.footer p {
+	footer p {
 		padding: 11px 0px 11px 0px;
 		font-size: 20px;
 	}
@@ -421,7 +421,7 @@ Desktop Small Layout
 
 	#contact_form textarea {
 		resize: none;
-		width: 49.9vw;
+		width: 95%;
 		height: 10vh;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
@@ -439,19 +439,19 @@ Desktop Small Layout
 
 	.left {
 		display: inline-block;
-		width: 45.5%;
+		width: 43%;
 		margin-right: calc(5vw * 0.35);
 	}
 
 	.right {
 		display: inline-block;
-		width: 45.5%;
+		width: 43%;
 		margin-left: calc(4.3vw * 0.35);
 	}
 
 	.full {
 		display: inline-block;
-		width: 49.3vw;
+		width: 93%;
 	}
 
 	.msgbox label {
@@ -461,9 +461,9 @@ Desktop Small Layout
 
 	#form_submit {
 		display: inline-block;
-		width: 6.8vw;
+		width: 18.5%;
 		font-size: 18px;
-		margin-left: calc(52vw * 0.41);
+		margin-left: 40.75%;
 		margin-top: 3vh;
 		margin-bottom: 3vh;
 	}
@@ -479,6 +479,7 @@ Desktop Small Layout
 		transition: background-color 0.25s ease;
 		font-family: inherit;
 		border: none;
+		cursor: pointer;
 	}
 
 	#form_submit button[type=submit]:hover {
