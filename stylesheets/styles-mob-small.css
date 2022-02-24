@@ -16,7 +16,7 @@ Small Portrait Layout
 #######################################
 */
 
-@media screen and (orientation: portrait) and (min-width: 600px) and (max-width: 799px) {
+@media screen and (orientation: portrait) and (min-width: 650px) and (max-width: 799px) {
 	.topnav a {
 		display: none;
 	}
@@ -86,6 +86,7 @@ Small Portrait Layout
 		display: block;
 		transition: background-color 0.25s ease;
 		text-align: left;
+		font-size: 28px;
 	}
 
 	#menu_button {
@@ -127,7 +128,7 @@ Small Portrait Layout
 
 	/* Footer */
 
-	.footer {
+	footer {
 		background-color: #000;
 		float: left;
 		position: relative;
@@ -136,7 +137,7 @@ Small Portrait Layout
 		color: #fff;
 	}
 
-	.footer p {
+	footer p {
 		padding: 11px 0px 11px 0px;
 		font-size: 20px;
 	}
@@ -410,8 +411,12 @@ Small Portrait Layout
 
 	.c_main {
 		position: relative;
-		width: 35vw;
-		left: 32.5vw;
+		width: 80vw;
+		left: 10vw;
+	}
+
+	.c_main h1 {
+		font-size: 42px;
 	}
 
 	#contact_form input[type=text] {
@@ -420,44 +425,44 @@ Small Portrait Layout
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
 		font-family: BaiJamjuree;
-		font-size: 20px;
+		font-size: 28px;
 		transition: border-bottom 0.15s ease;
 		background: none;
 	}
 
 	#contact_form textarea {
 		resize: none;
-		width: 34.9vw;
+		width: 98%;
 		height: 10vh;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
 		font-family: BaiJamjuree;
-		font-size: 20px;
+		font-size: 28px;
 		transition: border-bottom 0.15s ease;
 		background: none;
 	}
 
 	#contact_form label {
-		font-size: 18px;
+		font-size: 28px;
 		margin-top: 7vh;
 		display: block;
 	}
 
 	.left {
 		display: inline-block;
-		width: 44%;
-		margin-right: calc(5vw * 0.35);
+		width: 42%;
+		margin-right: 0%;
 	}
 
 	.right {
 		display: inline-block;
-		width: 44%;
-		margin-left: calc(4.3vw * 0.35);
+		width: 42%;
+		margin-left: 12%;
 	}
 
 	.full {
 		display: inline-block;
-		width: 34.3vw;
+		width: 96%;
 	}
 
 	.msgbox label {
@@ -467,23 +472,24 @@ Small Portrait Layout
 
 	#form_submit {
 		display: inline-block;
-		width: 6.8vw;
-		font-size: 18px;
-		margin-left: calc(34vw * 0.41);
-		margin-top: 3vh;
-		margin-bottom: 3vh;
+		width: 27%;
+		margin-left: 36.5%;
+		margin-top: 6vh;
+		margin-bottom: 6vh;
+		overflow-x: hidden;
 	}
 
 	#form_submit button[type=submit] {
 		background-color: rgb(94, 94, 94);
 		color: #fff;
-		padding: calc(0.5 * (1vh + 1vw));
-		padding-left: calc(1 * (1vh + 1vw));
-		padding-right: calc(1 * (1vh + 1vw));
-		border-radius: calc(0.7 * (1vh + 1vw));
+		padding: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+		border-radius: 24px;
 		text-decoration: none;
 		transition: background-color 0.25s ease;
 		font-family: inherit;
+		font-size: 22px;
 		border: none;
 	}
 
@@ -534,8 +540,8 @@ Small Portrait Layout
 		background-image: url("../resources/matterport.png");
 		padding: 200px 25%;
 		background-repeat: no-repeat;
-		background-size: 101%;
-		background-position-x: 1700%;
+		background-size: 160%;
+		background-position-x: 75%;
 		background-position-y: 50%;
 	}
 

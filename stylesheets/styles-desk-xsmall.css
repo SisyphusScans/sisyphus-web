@@ -16,7 +16,7 @@ X-Small Landscape Layout
 #######################################
 */
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) and (orientation: landscape) {
 	.topnav a {
 		display: none;
 	}
@@ -127,7 +127,7 @@ X-Small Landscape Layout
 
 	/* Footer */
 
-	.footer {
+	footer {
 		background-color: #000;
 		float: left;
 		position: relative;
@@ -136,7 +136,7 @@ X-Small Landscape Layout
 		color: #fff;
 	}
 
-	.footer p {
+	footer p {
 		padding: 11px 0px 11px 0px;
 		font-size: 20px;
 	}
@@ -410,13 +410,13 @@ X-Small Landscape Layout
 
 	.c_main {
 		position: relative;
-		width: 35vw;
-		left: 32.5vw;
+		width: 70vw;
+		left: 15vw;
 	}
 
 	#contact_form input[type=text] {
 		padding: 8px;
-		width: 100%;
+		width: 94.5%;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
 		font-family: BaiJamjuree;
@@ -427,7 +427,7 @@ X-Small Landscape Layout
 
 	#contact_form textarea {
 		resize: none;
-		width: 34.9vw;
+		width: 93%;
 		height: 10vh;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
@@ -457,7 +457,7 @@ X-Small Landscape Layout
 
 	.full {
 		display: inline-block;
-		width: 34.3vw;
+		width: 96%;
 	}
 
 	.msgbox label {
@@ -467,9 +467,9 @@ X-Small Landscape Layout
 
 	#form_submit {
 		display: inline-block;
-		width: 6.8vw;
+		width: 18.5%;
 		font-size: 18px;
-		margin-left: calc(34vw * 0.41);
+		margin-left: 40.75%;
 		margin-top: 3vh;
 		margin-bottom: 3vh;
 	}
@@ -477,10 +477,10 @@ X-Small Landscape Layout
 	#form_submit button[type=submit] {
 		background-color: rgb(94, 94, 94);
 		color: #fff;
-		padding: calc(0.5 * (1vh + 1vw));
-		padding-left: calc(1 * (1vh + 1vw));
-		padding-right: calc(1 * (1vh + 1vw));
-		border-radius: calc(0.7 * (1vh + 1vw));
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 14px;
 		text-decoration: none;
 		transition: background-color 0.25s ease;
 		font-family: inherit;

@@ -12,26 +12,26 @@
 
 /*
 #######################################
-X-Small Portrait Layout
+Small Portrait Layout
 #######################################
 */
 
-@media screen and (orientation: portrait) and (max-width: 599px) {
+@media screen and (orientation: portrait) and (max-width: 649px) {
 	.topnav a {
 		display: none;
 	}
 
 	.topnav #title_box h1 {
 		font-family: Fahkwang;
-		font-size: 50px;
-		margin: 44px 3% 44px 4%;
+		font-size: 60px;
+		margin: 34px 3% 34px 4%;
 		overflow: hidden;
 		float: left;
 	}
 
 	.topnav #title_box img {
-		height: 44px;
-		margin: 50.5px 2% 31.5px 0%;
+		height: 54px;
+		margin: 43px 2% 22px 0%;
 		overflow: hidden;
 		float: left;
 	}
@@ -40,7 +40,7 @@ X-Small Portrait Layout
 		background-color: #FFF;
 		overflow: hidden;
 		top: 0;
-		width: 160vw;
+		width: 100vw;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
 		position: relative;
 		z-index: 1000;
@@ -51,10 +51,10 @@ X-Small Portrait Layout
 		color: #000;
 		text-align: center;
 		padding: 16px 0px 16px 0px;
-		margin: 30px 10% 30px 0px;
+		margin: 18px 5% 18px 0px;
 		width: 8%;
 		text-decoration: none;
-		font-size: 48px;
+		font-size: 72px;
 		font-family: Helvetica;
 		transition: background-color 0.25s ease;
 		border: 0px;
@@ -86,6 +86,7 @@ X-Small Portrait Layout
 		display: block;
 		transition: background-color 0.25s ease;
 		text-align: left;
+		font-size: 24px;
 	}
 
 	#menu_button {
@@ -127,7 +128,7 @@ X-Small Portrait Layout
 
 	/* Footer */
 
-	.footer {
+	footer {
 		background-color: #000;
 		float: left;
 		position: relative;
@@ -136,7 +137,7 @@ X-Small Portrait Layout
 		color: #fff;
 	}
 
-	.footer p {
+	footer p {
 		padding: 11px 0px 11px 0px;
 		font-size: 20px;
 	}
@@ -410,8 +411,12 @@ X-Small Portrait Layout
 
 	.c_main {
 		position: relative;
-		width: 35vw;
-		left: 32.5vw;
+		width: 80vw;
+		left: 10vw;
+	}
+
+	.c_main h1 {
+		font-size: 36px;
 	}
 
 	#contact_form input[type=text] {
@@ -420,44 +425,45 @@ X-Small Portrait Layout
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
 		font-family: BaiJamjuree;
-		font-size: 20px;
+		font-size: 24px;
 		transition: border-bottom 0.15s ease;
 		background: none;
 	}
 
 	#contact_form textarea {
 		resize: none;
-		width: 34.9vw;
+		width: 99%;
 		height: 10vh;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
 		font-family: BaiJamjuree;
-		font-size: 20px;
+		font-size: 24px;
 		transition: border-bottom 0.15s ease;
 		background: none;
 	}
 
 	#contact_form label {
-		font-size: 18px;
+		font-size: 24px;
 		margin-top: 7vh;
 		display: block;
 	}
 
 	.left {
 		display: inline-block;
-		width: 44%;
-		margin-right: calc(5vw * 0.35);
+		width: 42%;
+		margin-left: 0px;
 	}
 
 	.right {
 		display: inline-block;
-		width: 44%;
-		margin-left: calc(4.3vw * 0.35);
+		width: 42%;
+		margin-left: 11%;
 	}
 
 	.full {
 		display: inline-block;
-		width: 34.3vw;
+		width: 96%;
+		margin-left: 0px;
 	}
 
 	.msgbox label {
@@ -467,23 +473,24 @@ X-Small Portrait Layout
 
 	#form_submit {
 		display: inline-block;
-		width: 6.8vw;
-		font-size: 18px;
-		margin-left: calc(34vw * 0.41);
-		margin-top: 3vh;
-		margin-bottom: 3vh;
+		width: 27%;
+		margin-left: 36.5%;
+		margin-top: 6vh;
+		margin-bottom: 6vh;
+		overflow-x: hidden;
 	}
 
 	#form_submit button[type=submit] {
 		background-color: rgb(94, 94, 94);
 		color: #fff;
-		padding: calc(0.5 * (1vh + 1vw));
-		padding-left: calc(1 * (1vh + 1vw));
-		padding-right: calc(1 * (1vh + 1vw));
-		border-radius: calc(0.7 * (1vh + 1vw));
+		padding: 20px;
+		padding-left: 40px;
+		padding-right: 40px;
+		border-radius: 24px;
 		text-decoration: none;
 		transition: background-color 0.25s ease;
 		font-family: inherit;
+		font-size: 18px;
 		border: none;
 	}
 
@@ -530,12 +537,13 @@ X-Small Portrait Layout
 
 	#p_title_container {
 		width: 100%;
+		margin-top: -60px;
 		background-image: url("../resources/matterport.png");
 		padding: 200px 25%;
 		background-repeat: no-repeat;
-		background-size: 101%;
-		background-position-x: 1700%;
-		background-position-y: 30%;
+		background-size: 160%;
+		background-position-x: 75%;
+		background-position-y: 50%;
 	}
 
 	#p_title {
@@ -555,125 +563,122 @@ X-Small Portrait Layout
 	#p_main_box_1 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 16%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_1 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_1 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_1 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
 	#p_main_box_1 ul {
-		margin-top: 60px;
+		margin-top: 30px;
 	}
 
 	#p_main_box_1 ul li {
 		font-size: 18px;
-		margin-top: 15px;
+		margin-top: 12px;
 	}
 
 	#p_main_box_2 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 2%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_2 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_2 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_2 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
 	#p_main_box_2 ul {
-		margin-top: 60px;
+		margin-top: 30px;
 	}
 
 	#p_main_box_2 ul li {
 		font-size: 18px;
-		margin-top: 15px;
+		margin-top: 12px;
 	}
 
 	#p_main_box_3 {
 		background-color: #CCC;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		display: inline-block;
-		vertical-align: top;
-		width: 20%;
+		display: block;
+		width: 60%;
 		height: 800px;
 		margin-top: 3%;
-		margin-left: 2%;
+		margin-left: 20%;
 		border-radius: 20px;
 	}
 
 	#p_main_box_3 h1 {
 		text-align: center;
-		font-size: 36px;
+		font-size: 48px;
 	}
 
 	#p_main_box_3 h2 {
 		text-align: center;
-		font-size: 20px;
+		font-size: 32px;
 		font-weight: normal;
 	}
 
 	#p_main_box_3 h3 {
 		text-align: center;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: normal;
 	}
 
 	#p_main_box_3 ul {
-		margin-top: 60px;
+		margin-top: 30px;
 	}
 
 	#p_main_box_3 ul li {
 		font-size: 18px;
-		margin-top: 20px;
+		margin-top: 12px;
 	}
 
 	#p_main_info {
 		display: block;
 		background-color: #DDD;
 		margin-bottom: 4%;
-		width: 50%;
+		width: 70%;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
-		margin-left: 25%;
-		margin-right: 25%;
+		margin-left: 15%;
+		margin-right: 15%;
 		border-radius: 20px;
 	}
 
