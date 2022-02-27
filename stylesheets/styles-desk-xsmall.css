@@ -10,6 +10,16 @@
 	src: url("../fonts/BaiJamjuree-Regular.ttf");
 }
 
+@font-face {
+	font-family: BaiJamjuree-Bold;
+	src: url("../fonts/BaiJamjuree-Bold.ttf");
+}
+
+@font-face {
+	font-family: BaiJamjuree-Light;
+	src: url("../fonts/BaiJamjuree-ExtraLight.ttf");
+}
+
 /*
 #######################################
 X-Small Landscape Layout
@@ -150,16 +160,18 @@ X-Small Landscape Layout
 	/* Div Strip 1 */
 
 	#i_strip_1_box h1 {
-		font-size: 55px;
+		font-size: 36px;
+		font-family: BaiJamjuree-Bold;
 	}
 
 	#i_strip_1_box p {
-		font-size: 36px;
+		font-size: 24px;
 	}
 
 	#i_strip_1 {
 		float: left;
 		width: 100%;
+		padding-bottom: 6vh;
 	}
 
 	#i_strip_1_box {
@@ -176,6 +188,7 @@ X-Small Landscape Layout
 	#i_strip_1_img_1 {
 		margin: 0px 0px 0px 0px;
 		width: 100%;
+		margin-top: 10vh;
 	}
 
 	#i_strip_1_img_1 img {
@@ -198,7 +211,7 @@ X-Small Landscape Layout
 	}
 
 	#i_strip_1_slogan {
-		font-size: 80px !important;
+		font-size: 55px !important;
 		width: 240px;
 	}
 
@@ -207,6 +220,10 @@ X-Small Landscape Layout
 	#i_strip_2 {
 		float: left;
 		width: 100vw;
+		padding-top: 6vh;
+		background-image: url("../resources/background_strip2.jpg");
+		background-size: 400%;
+		background-position: center;
 	}
 
 	#i_strip_2_box_1 {
@@ -278,6 +295,7 @@ X-Small Landscape Layout
 	#i_strip_2 h1 {
 		text-align: center;
 		font-size: 60px;
+		font-family: BaiJamjuree-Light;
 	}
 
 	/* Div Strip 3 */
@@ -309,6 +327,7 @@ X-Small Landscape Layout
 	#i_strip_3_text h1 {
 		font-size: 75px;
 		text-align: center;
+		font-family: BaiJamjuree-Light
 	}
 
 	/* Div Strip 4 */
@@ -323,6 +342,7 @@ X-Small Landscape Layout
 
 	#i_strip_4 h1 {
 		font-size: 75px;
+		font-family: BaiJamjuree-Light
 	}
 
 	.slide {
@@ -706,5 +726,12 @@ X-Small Landscape Layout
 	#p_main_info h1 {
 		text-align: center;
 		padding: 3%;
+	}
+
+	#p_disclaimer {
+		width: 90%;
+		margin: 8% 5% 8% 5%;
+		font-size: 24px;
+		text-align: center;
 	}
 }
