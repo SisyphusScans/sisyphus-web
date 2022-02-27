@@ -1,4 +1,4 @@
-var slideIndex = 0;
+var slideIndex = 9999999;
 
 try {
 	let newStyle = document.createElement('STYLE');
@@ -20,10 +20,17 @@ function updateSlides() {
 
 		slides[realIndex].style.maxHeight = "100%";
 		slides[realIndex].style.opacity = "1.0";
-
-		slideIndex++;
 	})
 }
 
-updateSlides();
-let slideUpdate = setInterval(updateSlides, 4000);
+function advance() {
+	slideIndex++;
+	updateSlides();
+}
+
+function retract() {
+	slideIndex--;
+	updateSlides();
+}
+
+advance();
