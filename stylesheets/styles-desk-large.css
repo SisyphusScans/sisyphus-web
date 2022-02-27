@@ -227,7 +227,7 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	#i_strip_2_box_2 {
@@ -247,7 +247,7 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	#i_strip_2_box_3 {
@@ -268,7 +268,7 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	#i_strip_2 h1 {
@@ -324,6 +324,22 @@ Desktop Medium Layout
 	.slide {
 		width: 60vw;
 		margin: 0px 20vw 0px 20vw;
+	}
+
+	.i_s_fb {
+		width: 5vw;
+		border: 0px solid;
+		color: white;
+		background-color: rgba(0, 0, 0, 1);
+		cursor: pointer;
+		font-size: 40px;
+		margin-top: 3vh;
+		transition: background-color 0.25s ease;
+	}
+
+	.i_s_fb:hover {
+		background-color: #b99e16;
+		color: #000;
 	}
 
 	/*
