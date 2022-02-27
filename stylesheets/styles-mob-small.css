@@ -432,7 +432,7 @@ X-Small Portrait Layout
 
 	#contact_form textarea {
 		resize: none;
-		width: 98%;
+		width: 95%;
 		height: 10vh;
 		border: none;
 		border-bottom: solid 2px rgb(94, 94, 94);
@@ -472,8 +472,8 @@ X-Small Portrait Layout
 
 	#form_submit {
 		display: inline-block;
-		width: 55%;
-		margin-left: 22.5%;
+		width: 57%;
+		margin-left: 21.5%;
 		margin-top: 6vh;
 		margin-bottom: 6vh;
 		overflow-x: hidden;
