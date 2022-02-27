@@ -10,6 +10,16 @@
 	src: url("../fonts/BaiJamjuree-Regular.ttf");
 }
 
+@font-face {
+	font-family: BaiJamjuree-Bold;
+	src: url("../fonts/BaiJamjuree-Bold.ttf");
+}
+
+@font-face {
+	font-family: BaiJamjuree-Light;
+	src: url("../fonts/BaiJamjuree-ExtraLight.ttf");
+}
+
 /*
 ###################################
 Desktop Small Layout
@@ -143,16 +153,18 @@ Desktop Small Layout
 	/* Div Strip 1 */
 
 	#i_strip_1_box h1 {
-		font-size: 45px;
+		font-size: 28px;
+		font-family: BaiJamjuree-Bold;
 	}
 
 	#i_strip_1_box p {
-		font-size: 30px;
+		font-size: 18px;
 	}
 
 	#i_strip_1 {
 		float: left;
 		width: 100%;
+		padding-bottom: 6vh;
 	}
 
 	#i_strip_1_box {
@@ -182,11 +194,11 @@ Desktop Small Layout
 
 	#i_strip_1_text a {
 		color: #FFF;
-		padding: 21.6px;
+		padding: 15px;
 		background-color: rgb(94, 94, 94);
-		border-radius: 24px;
+		border-radius: 16px;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 13px;
 		transition: background-color 0.25s ease;
 	}
 
@@ -196,7 +208,7 @@ Desktop Small Layout
 	}
 
 	#i_strip_1_slogan {
-		font-size: 80px !important;
+		font-size: 44px !important;
 		width: 240px;
 	}
 
@@ -205,6 +217,10 @@ Desktop Small Layout
 	#i_strip_2 {
 		float: left;
 		width: 100vw;
+		padding-top: 6vh;
+		background-image: url("../resources/background_strip2.jpg");
+		background-size: 100%;
+		background-position: center;
 	}
 
 	#i_strip_2_box_1 {
@@ -213,7 +229,9 @@ Desktop Small Layout
 		width: 20%;
 		margin: 0px 2% 4% 17.5%;
 		border-radius: 20px;
-		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		box-shadow: 1px 1px 10px rgb(0, 0, 0);
+		height: 400px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_1 img {
@@ -233,7 +251,9 @@ Desktop Small Layout
 		background-color: #DDD;
 		width: 20%;
 		border-radius: 20px;
-		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		box-shadow: 1px 1px 10px rgb(0, 0, 0);
+		height: 400px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_2 img {
@@ -254,7 +274,9 @@ Desktop Small Layout
 		width: 20%;
 		margin: 0px 0% 4% 2%;
 		border-radius: 20px;
-		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		box-shadow: 1px 1px 10px rgb(0, 0, 0);
+		height: 400px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_3 img {
@@ -272,6 +294,7 @@ Desktop Small Layout
 	#i_strip_2 h1 {
 		text-align: center;
 		font-size: 60px;
+		font-family: BaiJamjuree-Light;
 	}
 
 	/* Div Strip 3 */
@@ -281,6 +304,7 @@ Desktop Small Layout
 		float: left;
 		position: relative;
 		width: 100vw;
+		background-position: 90% 25%;
 	}
 
 	#i_strip_3_box {
@@ -303,6 +327,7 @@ Desktop Small Layout
 	#i_strip_3_text h1 {
 		font-size: 75px;
 		text-align: center;
+		font-family: BaiJamjuree-Light;
 	}
 
 	/* Div Strip 4 */
@@ -317,6 +342,7 @@ Desktop Small Layout
 
 	#i_strip_4 h1 {
 		font-size: 75px;
+		font-family: BaiJamjuree-Light;
 	}
 
 	.slide {
@@ -703,5 +729,12 @@ Desktop Small Layout
 	#p_main_info h1 {
 		text-align: center;
 		padding: 3%;
+	}
+
+	#p_disclaimer {
+		width: 90%;
+		margin: 8% 5% 8% 5%;
+		font-size: 34px;
+		text-align: center;
 	}
 }

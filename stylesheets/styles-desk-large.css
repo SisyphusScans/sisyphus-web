@@ -10,9 +10,20 @@
 	src: url("../fonts/BaiJamjuree-Regular.ttf");
 }
 
+@font-face {
+	font-family: BaiJamjuree-Bold;
+	src: url("../fonts/BaiJamjuree-Bold.ttf");
+}
+
+@font-face {
+	font-family: BaiJamjuree-Light;
+	src: url("../fonts/BaiJamjuree-ExtraLight.ttf");
+}
+
+
 /*
 ###################################
-Desktop Medium Layout
+Desktop Large Layout
 ###################################
 */
 
@@ -133,7 +144,7 @@ Desktop Medium Layout
 
 	footer p {
 		padding: 11px 0px 11px 0px;
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	/*
@@ -146,6 +157,7 @@ Desktop Medium Layout
 
 	#i_strip_1_box h1 {
 		font-size: 55px;
+		font-family: BaiJamjuree-Bold;
 	}
 
 	#i_strip_1_box p {
@@ -155,6 +167,7 @@ Desktop Medium Layout
 	#i_strip_1 {
 		float: left;
 		width: 100%;
+		padding-bottom: 6vh;
 	}
 
 	#i_strip_1_box {
@@ -207,6 +220,10 @@ Desktop Medium Layout
 	#i_strip_2 {
 		float: left;
 		width: 100vw;
+		padding-top: 6vh;
+		background-image: url("../resources/background_strip2.jpg");
+		background-size: 100%;
+		background-position: center;
 	}
 
 	#i_strip_2_box_1 {
@@ -215,7 +232,9 @@ Desktop Medium Layout
 		width: 20%;
 		margin: 0px 2% 4% 17.5%;
 		border-radius: 20px;
-		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		box-shadow: 1px 1px 10px rgb(0, 0, 0);
+		height: 700px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_1 img {
@@ -227,7 +246,7 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	#i_strip_2_box_2 {
@@ -236,6 +255,8 @@ Desktop Medium Layout
 		width: 20%;
 		border-radius: 20px;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		height: 700px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_2 img {
@@ -247,7 +268,7 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	#i_strip_2_box_3 {
@@ -257,6 +278,8 @@ Desktop Medium Layout
 		margin: 0px 0% 4% 2%;
 		border-radius: 20px;
 		box-shadow: 1px 1px 10px rgb(94, 94, 94);
+		height: 700px;
+		vertical-align: top;
 	}
 
 	#i_strip_2_box_3 img {
@@ -268,12 +291,13 @@ Desktop Medium Layout
 		width: 70%;
 		margin: 0px 15% 10% 15%;
 		text-align: left;
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	#i_strip_2 h1 {
 		text-align: center;
-		font-size: 60px;
+		font-size: 100px;
+		font-family: BaiJamjuree-Light;
 	}
 
 	/* Div Strip 3 */
@@ -303,8 +327,9 @@ Desktop Medium Layout
 	}
 
 	#i_strip_3_text h1 {
-		font-size: 75px;
+		font-size: 120px;
 		text-align: center;
+		font-family: BaiJamjuree-Light;
 	}
 
 	/* Div Strip 4 */
@@ -318,7 +343,8 @@ Desktop Medium Layout
 	}
 
 	#i_strip_4 h1 {
-		font-size: 75px;
+		font-size: 120px;
+		font-family: BaiJamjuree-Light;
 	}
 
 	.slide {
@@ -706,5 +732,12 @@ Desktop Medium Layout
 	#p_main_info h1 {
 		text-align: center;
 		padding: 3%;
+	}
+
+	#p_disclaimer {
+		width: 90%;
+		margin: 8% 5% 8% 5%;
+		font-size: 46px;
+		text-align: center;
 	}
 }
