@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Sisyphus Scans</title>
+</head>
+<body>
+    <header>
+        <div class="bar">
+            <nav>
+                <ul>
+                    <a id="nav_start" href="contact.html">Contact Us</a>
+                    <a href="packages.html">Packages</a>
+                    <a href="about.html">About</a>
+                    <a class="active" href="index.html">Home</a>
+                </ul>
+                <div id="title_box">
+                    <h1>SISYPHUS</h1>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="SSS">
+        <img src="./images/house.png" alt="house" class="house">
+        <div class="opening">
+            <h1 class="stunning">
+                Get a stunning, high quality, interactive 3D scan of your home.
+            </h1>
+
+            <p class="booked">
+                Once your booked we will come to your property and use the Matterport 3D camera to bring your home to life.
+            </p>
+
+            <a href="./contact.html" class="book">Book now!</a>
+            
+            <video width="400" height="200" class="SSSvid" autoplay muted>
+                <source src="./images/sisyphus.mp4" type="video/mp4" >
+            </video>
+        </div>
+    </div>
+    <div class="products">
+        <p class="PTitle">Products</p>
+        <div class="Points">
+            <li class="boldit">3D Scans:</li>
+            <ul class="pointul">-Dollhouse view</ul>
+            <ul class="pointul">-Measuring tools</ul>
+            <ul class="pointul">-VR access to scan</ul>
+            <li class="boldit">Unlimited 4K images</li>
+            <li class="boldit">Videos</li>
+            <ul class="pointul">-We will capture one or multiple parts of the property </br>  in the form of a 15-150 second clip.</ul>
+            <li class="boldit">Exterior panoramas/widangle photos</li>
+            <ul class="pointul">-These are taken seperately from the scan.</ul>
+            <li class="boldit">2D floor plan</li>
+        </div>
+    </div>
+    <div class="easy">
+        <p class="HowIt">How it Works</p>
+        <img src="./images/listings.png" class="steps">
+    </div>
+    <div class="slideholder">
+        <div class="slideshow">
+            <div class="slides fade">
+                <div class="number">1 / 3</div>
+                <img src="./images/1.png" style="width: 100%;">
+            </div>
+    
+            <div class="slides fade">
+                <div class="number">2 / 3</div>
+                <img src="./images/2.png" style="width: 100%;">
+            </div>
+    
+            <div class="slides fade">
+                <div class="number">3 / 3</div>
+                <img src="./images/3.png" style="width: 100%;">
+            </div>
+    
+            <a class="previous" onclick="plusSlide(-1)">&#10094</a>
+            <a class="next" onclick="plusSlide(1)">&#10095</a>
+    
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex)
+    
+        function plusSlide(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex =  slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+    <div class="footer">
+        <p>Contact us at: sisyphus.scans@gmail.com</p>
+    </div>
+</body>
+
+</htmtl>
