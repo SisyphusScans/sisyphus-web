@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Home</title>
+
+        <script defer src="scripts/slideshow.js"></script>
+        <script defer src="scripts/dropdown.js"></script>
+        <link rel="stylesheet" href="stylesheets/styles-desk-large.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-desk-med.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-desk-small.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-desk-xsmall.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-large.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-med.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-small.css"/>
+        <link rel="stylesheet" href="stylesheets/styles-mob-xlarge.css"/>
+        <link rel="shortcut icon" type="image/png" href="resources/favicon-32x32.png"/>
+    </head>
+
+    <body>
+        <div id="nav_menu" class="dropdown-content">
+            <a onclick="menuOpen()" id="menu_button">&times; Close Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="packages.html">Packages</a>
+            <a href="about_us.html">About Us</a>
+            <a href="index.html">Home</a>
+        </div>
+
+
+        <div class="topnav">
+            <a id="nav_start" href="contact.html">Contact Us</a>
+            <a href="packages.html">Packages</a>
+            <a href="about_us.html">About Us</a>
+            <a class="active" href="index.html">Home</a>
+
+            <div class="dropdown">
+                <button onclick="menuOpen()" class="dropbtn">≡</button>
+            </div>
+
+            <div id="title_box">
+                <h1>SISYPHUS</h1>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div id="i_strip_1">
+                <div id="i_strip_1_box">
+                    <div id="i_strip_1_img_1">
+                        <img src="resources/wireframe.png" />
+                    </div>
+                    <div id="i_strip_1_text">
+                        <h1>Generate a stunning, interactive 3D visual of your home.</h1>
+                        <p>Sisyphus uses proprietary code and Matterport technology to bring your home to life.</p>
+                        <br/>
+                        <a href="contact.html">Book Appointment ></a>
+                        <p id="i_strip_1_slogan">Simple. Streamlined. Satisfying.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="i_strip_2">
+                <h1>How does it work?</h1>
+                <div id="i_strip_2_box_1">
+                    <img src="resources/banner_1.png" />
+                    <p>Our team scans your property with the Matterport PRO2 3D camera.</p>
+                </div>
+                <div id="i_strip_2_box_2">
+                    <img src="resources/banner_2.png" />
+                    <p>After a turnaround of the scans, the interactive 3D model is yours to explore.</p>
+                </div>
+                <div id="i_strip_2_box_3">
+                    <img src="resources/banner_3.png" />
+                    <p>Now anyone can access your scan using a browser on either mobile or PC!</p>
+                </div>
+            </div>
+
+            <div id="i_strip_3">
+                <div id="i_strip_3_text">
+                    <h1>Our Products</h1>
+                    <ul id="product_list">
+                        <li>
+                            <strong>3D scans:</strong>
+                        </li>
+                        <li style="list-style-type:none">
+                            <ul>
+                                <li>Dollhouse View</li>
+                                <li>Measuring Tools</li>
+                                <li>VR Access to Scan</li>
+                            </ul>
+                        </li>
+                        <br/>
+                        <li><strong>Unlimited 4K images</strong> rendered from the scan and chosen at discretion of the client.</li>
+                        <br/>
+                        <li><strong>Videography</strong> capturing one or multiple part(s) of the building in the form of a 15-150 second video clip.</li>
+                        <br/>
+                        <li><strong>Exterior Panoramas / Wide angle shots</strong> taken separate from the scan.</li>
+                        <br/>
+                        <li><strong>2D Floor Plans</strong></li>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="i_strip_4">
+                <h1>Scanned Houses</h1>
+
+                <div class="slideshow">
+                    <img class="slide" src="resources/1.png"/>
+                    <img class="slide" src="resources/2.png"/>
+                    <img class="slide" src="resources/3.png"/>
+                    <img class="slide" src="resources/4.png"/>
+                    <img class="slide" src="resources/5.png"/>
+                    <img class="slide" src="resources/6.png"/>
+                </div>
+                <button class="i_s_fb" onclick="retract()">	&larr;</button>
+                <button class="i_s_fb" onclick="advance()">	&rarr;</button>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <footer>
+                <p>Contact us at sisyphus.scans@gmail.com</p>
+            </footer>
+        </div>
+    </body>
+</html>
