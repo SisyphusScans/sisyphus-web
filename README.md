@@ -1,6 +1,6 @@
 # sisyphus-web
 
-propane's website design
+Main Website Design
 
 - [x] Responsive support
   - [x] Desktop Large (Larger than 1920x1080)
