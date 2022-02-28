@@ -359,6 +359,7 @@ Small Portrait Layout
 		margin-top: 3vh;
 		width: 20%;
 		transition: background-color 0.25s ease;
+		text-align: center;
 	}
 
 	.i_s_fb:hover {

@@ -359,6 +359,7 @@ X-Small Landscape Layout
 		font-size: 24px;
 		margin-top: 3vh;
 		transition: background-color 0.25s ease;
+		text-align: center;
 	}
 
 	.i_s_fb:hover {
