@@ -166,7 +166,7 @@ Desktop Medium Layout
 	#i_strip_1 {
 		float: left;
 		width: 100%;
-		padding-bottom: 6vh;
+		padding-bottom: 18vh;
 	}
 
 	#i_strip_1_box {
@@ -219,7 +219,8 @@ Desktop Medium Layout
 	#i_strip_2 {
 		float: left;
 		width: 100vw;
-		padding-top: 6vh;
+		padding-top: 18vh;
+		padding-bottom: 18vh;
 		background-image: url("../resources/background_strip2.jpg");
 		background-size: 100%;
 		background-position: center;
@@ -297,6 +298,7 @@ Desktop Medium Layout
 		text-align: center;
 		font-size: 60px;
 		font-family: BaiJamjuree-Light;
+		color: #FFF;
 	}
 
 	/* Div Strip 3 */
@@ -335,7 +337,7 @@ Desktop Medium Layout
 	/* Div Strip 4 */
 
 	#i_strip_4 {
-		background-color: rgb(208, 213, 221);
+		background-color: rgb(180, 180, 180);
 		float: left;
 		position: relative;
 		width: 100vw;
@@ -343,13 +345,13 @@ Desktop Medium Layout
 	}
 
 	#i_strip_4 h1 {
-		font-size: 75px;
+		font-size: 60px;
 		font-family: BaiJamjuree-Light;
 	}
 
 	.slide {
-		width: 60vw;
-		margin: 0px 20vw 0px 20vw;
+		width: 50vw;
+		margin: 0px 25vw 0px 25vw;
 	}
 
 	.i_s_fb {

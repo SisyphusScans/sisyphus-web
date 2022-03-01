@@ -164,7 +164,7 @@ Desktop Small Layout
 	#i_strip_1 {
 		float: left;
 		width: 100%;
-		padding-bottom: 6vh;
+		padding-bottom: 18vh;
 	}
 
 	#i_strip_1_box {
@@ -217,7 +217,8 @@ Desktop Small Layout
 	#i_strip_2 {
 		float: left;
 		width: 100vw;
-		padding-top: 6vh;
+		padding-top: 18vh;
+		padding-bottom: 18vh;
 		background-image: url("../resources/background_strip2.jpg");
 		background-size: 100%;
 		background-position: center;
@@ -321,11 +322,11 @@ Desktop Small Layout
 
 	#i_strip_3_text #product_list {
 		position: relative;
-		font-size: 26px;
+		font-size: 21px;
 	}
 
 	#i_strip_3_text h1 {
-		font-size: 75px;
+		font-size: 60px;
 		text-align: center;
 		font-family: BaiJamjuree-Light;
 	}
@@ -341,13 +342,13 @@ Desktop Small Layout
 	}
 
 	#i_strip_4 h1 {
-		font-size: 75px;
+		font-size: 50px;
 		font-family: BaiJamjuree-Light;
 	}
 
 	.slide {
-		width: 60vw;
-		margin: 0px 20vw 0px 20vw;
+		width: 50vw;
+		margin: 0px 25vw 0px 25vw;
 	}
 
 	.i_s_fb {
